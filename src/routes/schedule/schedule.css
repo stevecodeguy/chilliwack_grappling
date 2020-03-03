@@ -1,0 +1,65 @@
+.scheduleCenter {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.scheduleCenter table {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4em;
+  border-collapse: collapse;
+  border: 2px solid black;
+  white-space: nowrap;
+}
+
+.scheduleCenter tr, .scheduleCenter td {
+  border: 1px solid black;
+}
+
+.scheduleCenter tr:nth-child(odd){
+  background-color: white;
+}
+
+.scheduleCenter tr:nth-child(even){
+  background-color: rgb(159, 187, 238);
+}
+
+.scheduleCenter td {
+  padding: 5px;
+}
+
+.scheduleCenter .feesCenter h3 {
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.scheduleCenter h5 {
+  text-align: center;
+  font-style: italic;
+}
+
+.smallTable {
+  display: none;
+}
+
+@media (max-height: 735px) {
+  .scheduleCenter {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 685px) {
+  .scheduleCenter {
+    margin-top: 8px;
+  }
+
+  .smallTable {
+    display: block;
+  }
+
+  .largeTable {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'NewStenciltfb';
+  src: url('./fonts/New_Stencil_tfb.ttf') format('truetype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'NewStenciltfb', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',   'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  padding-inline-start: 0;
+}

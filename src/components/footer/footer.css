@@ -1,0 +1,16 @@
+#footer {
+  height: 16px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer p {
+  font-size: 0.7em;
+  padding: 0 8px;
+  font-style: italic;
+  white-space: nowrap;
+}

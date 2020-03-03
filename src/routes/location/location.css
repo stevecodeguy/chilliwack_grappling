@@ -1,0 +1,23 @@
+.locationCenter {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  height: auto;
+}
+
+.locationCenter .locationMap {
+  display: block;
+}
+
+@media (max-height: 735px) {
+  .locationCenter {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 685px) {
+  .locationCenter {
+    margin-top: 8px;
+  }
+}

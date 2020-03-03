@@ -1,0 +1,39 @@
+#entrance {
+  width: 280px;
+  background-color: #fff;
+  border: 1px solid rgb(1, 183, 255);
+  padding: 16px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#entrance h4 {
+  text-align: center;
+}
+
+#entrance p,
+#entrance img {
+  width: 280px;
+}
+
+@media (min-width: 650px){
+  #entrance {
+    width: 550px;
+  }
+
+  #entrance p,
+  #entrance img {
+    width: 550px;
+  }
+}
+
+@media (min-width: 800px){
+  #entrance {
+    width: 750px;
+  }
+
+  #entrance p,
+  #entrance img {
+    width: 750px;
+  }
+}

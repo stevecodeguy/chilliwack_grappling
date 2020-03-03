@@ -1,0 +1,44 @@
+.background {
+  position: fixed;
+  top: 0;
+  z-index: -100;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.backgroundLeft,
+.backgroundRight  {
+  position: absolute;
+  height: 100%;
+}
+
+.backgroundLeft {
+  left: -20%;
+  top: 0;
+}
+
+.backgroundRight {
+  right: -20%;
+  bottom: 0;
+}
+
+@media (min-width: 965px) {
+  .backgroundLeft  {
+    left: -10%;
+  }
+  
+  .backgroundRight {
+    right: -10%;
+  }
+}
+
+@media (min-width: 1265px) {
+  .backgroundLeft  {
+    left: 0;
+  }
+  
+  .backgroundRight {
+    right: 0;
+  }
+}

@@ -1,0 +1,52 @@
+h1 {
+  font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+}
+
+#root {
+  height: auto;
+  width: 100%;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: -1;
+}
+
+.logo img {
+  width: 35%;
+}
+
+@media (max-height: 685px) {
+  .logo img {
+    height: 65%;
+  }
+}
+
+@media (max-width: 685px) {
+  .logo img {
+    width: 75%;
+  }
+}
+
+@media (max-height: 450px) {
+  .logo img {
+    padding-top: 48px;
+    width: 25%;
+  }
+}

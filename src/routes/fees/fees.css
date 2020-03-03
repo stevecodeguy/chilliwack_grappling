@@ -1,0 +1,53 @@
+.feesCenter {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  height: auto;
+}
+
+.feesCenter table {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3em;
+  border-collapse: collapse;
+  border: 2px solid black;
+  white-space: nowrap;
+}
+
+.feesCenter tr, .feesCenter td {
+  border: 1px solid black;
+}
+
+.feesCenter tr:nth-child(odd){
+  background-color: white;
+}
+
+.feesCenter tr:nth-child(even){
+  background-color: rgb(159, 187, 238);
+}
+
+.feesCenter td {
+  padding: 5px;
+}
+
+.feesCenter h3 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 16px auto 4px;
+}
+
+@media (max-height: 735px) {
+  .feesCenter {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 685px) {
+  .feesCenter {
+    margin-top: 8px;
+  }
+
+  .feesCenter table {
+    font-size: 1.2em;
+  }
+}

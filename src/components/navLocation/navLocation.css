@@ -1,0 +1,37 @@
+#navLocation {
+  display: flex;
+  justify-content: center;
+}
+
+#navLocation a {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 16px;
+  padding: 8px 16px;
+  border: 3px solid rgb(1, 183, 255);
+  border-radius: 6px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#navLocation a li {
+  font-size: 0.8em;
+  width: 100px;
+  border: 3px solid transparent;
+}
+
+#navLocation li:hover,
+#navLocation .active li {
+  border-bottom: 3px solid black;
+}
+
+@media (max-width: 685px){
+  #navLocation a {
+    margin: 0 auto;
+    font-size: 0.8em;
+  }
+
+  #navLocation {
+    margin: 8px auto;
+  }
+}

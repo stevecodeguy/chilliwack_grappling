@@ -1,0 +1,141 @@
+.navLogo {
+  height: 80px;
+  width: 80px;
+  padding: 0 8px;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: black;
+}
+
+li:hover,
+.active li {
+  border-bottom: 3px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(transparent,#fff, #fff, transparent);
+  z-index: 10;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  border: 3px solid transparent;
+  margin: 0 8px;
+  padding: 8px 5px 5px;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+nav a li img {
+  height: 32px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+nav a .socialMedia {
+  margin-right: 32px;
+}
+
+nav .navNoLogo {
+  display: flex;
+  justify-items: flex-end;
+}
+
+@media (max-width: 775px){
+  nav {
+    top: auto;
+    bottom: 0;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 12px;
+    background-image: linear-gradient(transparent,#fff, #fff, transparent);
+  }
+
+  nav .navLogo {
+    display: none;
+  }
+
+  nav ul {
+    margin-right: 0;
+  }
+  
+  nav li {
+    background-color: #fff;
+    padding: 15px 12px 12px;
+    margin: 1px;
+    border: 1px solid black;
+  }
+  
+  li:hover,
+  .active li {
+    border-bottom: 5px solid black;
+  }
+
+  nav a .socialMedia{
+    margin: 17px 0;
+    padding: 0 16px;
+    height: 44px;
+  }
+
+  nav a:visited .socialMedia,
+  nav a:link .socialMedia{
+    border-bottom: 1px solid black;
+  }
+
+  nav a .socialMedia img {
+    margin: 4px;
+  }
+
+  nav a {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 540px){
+  nav li {
+    padding: 8px 5px 5px;
+  }
+
+  nav a .socialMedia{
+    margin: 17px 0;
+    padding: 0 8px;
+    height: 26px;
+  }
+
+  nav a .socialMedia img {
+    height: 20px;
+    margin: 2px;
+    border-radius: 3px;
+  }
+
+  nav a {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 365px){
+  nav a {
+    font-size: 0.5em;
+  }
+}
